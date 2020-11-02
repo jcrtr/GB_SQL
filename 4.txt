@@ -1,0 +1,1 @@
+mysql -u USER -p -e "SELECT * FROM help_keyword LIMIT 100" > /path/to/dump.sql

@@ -1,0 +1,4 @@
+# Создаем бекап
+mysqldump -u USER -pPASSWORD example > /path/to/dump.sql
+# Экспорт
+mysql -u USER -pPASSWORD sample < /path/to/dump.sql
